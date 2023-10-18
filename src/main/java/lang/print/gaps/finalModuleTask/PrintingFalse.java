@@ -4,6 +4,8 @@ public class PrintingFalse {
     public static void main(String[] args) {
         int first = 9;
         int second = -17;
-        //write code here
+        boolean b = first < second;
+        System.out.println("statement first > second is " + b);
+
     }
 }
