@@ -9,12 +9,12 @@ public class NumberReverter {
         md=(number/10)%10;
         ld=number%10;
         rev=ld*100+md*10+fd;
-        System.out.print("Reverse=" + rev);
+        System.out.print(rev);
 
     }
 
     public static void main(String[] args) {
         NumberReverter obj = new NumberReverter();
-        obj.revert(123);
+        obj.revert(433);
     }
 }

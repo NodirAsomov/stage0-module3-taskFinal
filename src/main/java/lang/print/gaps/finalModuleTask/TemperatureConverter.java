@@ -5,8 +5,7 @@ public class TemperatureConverter {
          double fahrenheit = 0.0;
          // formula for conversion
         fahrenheit = ((double) temperatureCelsius * 1.8) + 32;
-        System.out.println( " value of temperature in fahrenheit:"
-                        + fahrenheit);
+        System.out.println(fahrenheit);
     }
 
     public static void main(String[] args) {
